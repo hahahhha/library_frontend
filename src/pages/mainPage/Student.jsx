@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-import Header from '../../header/Header';
-import StudentSearchInput from '../../searchInput/studentSearchInput';
-import ServerError from '../../serverError/ServerError';
+import Header from '../../header/Header.jsx';
+import StudentSearchInput from '../../searchInput/studentSearchInput.jsx';
+import ServerError from '../../serverError/ServerError.jsx';
 
 function Student() {
   const [books, setBooks] = useState([]);
