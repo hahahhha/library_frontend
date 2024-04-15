@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 // import './index.css'
-import Login from './pages/login-page/Login'
+import Login from './pages/loginPage/Login'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import MainPage from './pages/main-page/MainPage';
+import MainPage from './pages/mainPage/MainPage';
 import Books from './pages/books/Books';
 import Profile from './pages/profile/Profile';
 
