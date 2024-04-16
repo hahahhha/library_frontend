@@ -16,7 +16,7 @@ function MainPage() {
         (async () => {
             try {
                 const token = localStorage.getItem('access_token')
-                const response = await axios.get(`http://localhost:5000/users/me/role/${token}`);
+                const response = await axios.get(`http://5.35.85.215:5000/users/me/role/${token}`);
 
                 const data = response.data;
                 setRole(data.role);

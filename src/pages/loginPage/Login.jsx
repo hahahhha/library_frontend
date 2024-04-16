@@ -32,7 +32,7 @@ function Login() {
             setPasswordClass('');
         }
         try {
-            const response = await axios.post('http://localhost:5000/auth/login', {
+            const response = await axios.post('http://5.35.85.215:5000/auth/login', {
                 login: login,
                 password: password
             });

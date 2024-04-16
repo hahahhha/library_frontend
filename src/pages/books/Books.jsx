@@ -32,7 +32,7 @@ function Books() {
     }
 
     axios
-      .get(`http://localhost:5000/books/all/${token}`)
+      .get(`http://5.35.85.215:5000/books/all/${token}`)
       .then((response) => {
         setBooks(response.data.books);
         setFilteredBooks(response.data.books);

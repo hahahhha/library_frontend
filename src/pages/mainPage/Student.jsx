@@ -14,7 +14,7 @@ function Student() {
   // добавить везде проверку на авторизацию и выделить ей в отдельное место
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/books/aviable/${token}`)
+      .get(`http://5.35.85.215:5000/books/aviable/${token}`)
       .then((response) => {
         console.log(response.data.books)
         setBooks([...response.data.books]);

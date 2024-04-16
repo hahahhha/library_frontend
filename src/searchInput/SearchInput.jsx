@@ -27,7 +27,7 @@ function SearchInput(props) {
 
   const filterBooksClick = () => {
     axios
-      .get(`http://localhost:5000/books/all/${token}`)
+      .get(`http://5.35.85.215:5000/books/all/${token}`)
       .then((response) => {
         let toSearchBooks = response.data.books;
         if (isOnlyAviableBooksSearch) {

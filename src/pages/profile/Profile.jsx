@@ -23,7 +23,7 @@ function Profile() {
   useEffect(() => {
     // user's data
     axios
-      .get(`http://localhost:5000/users/me/${token}`)
+      .get(`http://5.35.85.215:5000/users/me/${token}`)
       .then((response) => {
         setUser(response.data.user);
       })
@@ -34,7 +34,7 @@ function Profile() {
 
     // books
     axios
-      .get(`http://localhost:5000/books/my/${token}`)
+      .get(`http://5.35.85.215:5000/books/my/${token}`)
       .then((response) => {
         setBooks(response.data.books);
       })

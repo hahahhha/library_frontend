@@ -35,7 +35,7 @@ function ModalStudent() {
 
   const addStudentClick = () => {
     axios
-      .post(`http://localhost:5000/auth/reg/${token}`, {
+      .post(`http://5.35.85.215:5000/auth/reg/${token}`, {
         name,
         surname,
         password,
