@@ -32,5 +32,6 @@
   "main": "cookies.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "proxy": "http://5.35.85.215:5000"
 }
